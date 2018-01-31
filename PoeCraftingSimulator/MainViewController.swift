@@ -20,9 +20,6 @@ extension NSMutableAttributedString {
 
 class MainViewController: UIViewController {
 
-    
-    //var currentaffixes  = CurrentAffixes.init(prefixes: [], suffixes: [])
-
     var craftingcomponents : [CraftingComponent] = []
     var selectedcomponent : Int = 7
     var currentitem : ItemStats = ItemStats(nameprefix : "", namesuffix : "", rarity: "white", quality: 20, suffixes: [], prefixes: [])
